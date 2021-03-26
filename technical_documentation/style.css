@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#navbar{
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+header{
+    color: black;
+    margin: 10px;
+    text-align:left;
+    font-size: 1.8em;
+}
+#navbar > ul{
+    height: 80%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar > ul li{
+    color: #4d4e53;
+    border-top: 1px solid #4d4e53;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    
+}
+#navbar > ul  li  a {
+    display: block;
+    padding: 10px 30px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+#main-doc{
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+.main-section{
+    display: block;
+}
+.main-section > article  ul li {
+    margin: 15px 0px 0px 20px;
+}
+.main-section > article{
+    color: #4d4e53;
+    margin: 15px;
+    font-size: 0.96em;
+}
+article > p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+article > ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+#main-doc > header{
+    text-align: left;
+    margin: 0px;
+}
+.code_article{
+    color: #4d4e53;
+    margin: 15px;
+    font-size: 0.96em;
+}
+code{
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+code > p{
+    margin-top: -50px;
+    margin-bottom: -25px;
+}
+@media only screen and (max-width: 600px){
+    #navbar{
+        background-color: white;
+        position: absolute;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-height: 275px;
+        border: none;
+        z-index: 1;
+        border-bottom: 2px solid;
+    }
+    #navbar ul{
+        border: 1px solid;
+    height: 207px;
+    }
+    header{
+        text-align: center;
+    }
+    #main-doc{
+        position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+    }
+}

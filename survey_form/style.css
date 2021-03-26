@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+    background-image: url("https://cdn.setapp.com/blog/images/getty-images-zoom-backgrounds.jpg");
+    background-repeat:none ;
+    background-size: 100% 100%;
+    opacity: 2;
+}
+section {
+  max-width: 45rem;
+  align-items: center;
+  margin: 3.125rem auto  ;
+
+ 
+}
+.header {
+  text-align: center;
+  padding: 0 0.625rem;
+  margin-bottom: 1.875rem;
+
+}
+.header > h1 {
+font-size:1.875rem;
+}
+.header > p{
+    font-size:1.25rem;
+    margin-top:1.25rem;
+}
+#form {
+  background: rgba(27, 27, 50, 0.8);
+  padding: 2.5rem;
+  border-radius: 0.25rem;
+}
+.form-details {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: white;
+  display: block;
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+.form-details > label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+.form-control {
+  font-size: 1rem;
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+textarea {
+ font-size: 16px;
+  min-height: 7.5rem;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+}
+button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: #37af65;
+  color: inherit;
+  border-radius: 0.125rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border:none;
+}
+.input-radio {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
